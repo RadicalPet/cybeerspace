@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+    <head>
+        <title>Beer with me</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="{% static 'js/style.js' %}"></script>
+
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <div class="topnav">
+         	<a href="{% url 'sessions' %}">Sessions</a>
+        </div>            
+        <h1><a href="/">Beer with me</a></h1>
+        {% block content %}{% endblock %}
+    </body>
+</html>
