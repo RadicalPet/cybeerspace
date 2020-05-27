@@ -1,0 +1,5 @@
+- in the terminal go to the repository
+- `source venv/bin/activate`
+- `python manage.py runserver`
+- html is in `cybeerspace/templates`
+- css/js in `cybeerspace/static`
