@@ -12,10 +12,15 @@
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
     </head>
     <body>
-        <div class="topnav">
-         	<a href="{% url 'sessions' %}">Sessions</a>
-        </div>            
-        <h1><a href="/">Beer with me</a></h1>
+		  <nav>
+			<div class="nav-wrapper deep-orange">
+			  <a href="#" class="brand-logo">Logo</a>
+			  <ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="{% url 'sessions' %}">Sessions</a></li>
+				<li><a href="/">Home</a></li>
+			  </ul>
+			</div>
+		  </nav>
         {% block content %}{% endblock %}
     </body>
 </html>
