@@ -24,7 +24,7 @@ ipython==7.11.1
 ipython-genutils==0.2.0
 isc==2.0
 jedi==0.15.2
-Jinja2==2.11.2
+Jinja2==2.11.3
 kitchen==1.2.6
 lensfun==0.3.95
 lockfile==0.12.2
