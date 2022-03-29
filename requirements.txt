@@ -37,7 +37,7 @@ npyscreen==4.10.5
 ordered-set==3.1.1
 packaging==20.3
 pacman-mirrors==4.16.4
-paramiko==2.7.1
+paramiko==2.10.1
 parso==0.5.2
 pep517==0.8.2
 pexpect==4.7.0
